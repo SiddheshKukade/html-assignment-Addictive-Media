@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", sans-serif;
+  /* font-family: 'PT Sans', sans-serif;     */
+}
+
+#landing {
+  height: 100vh;
+  width: 100vw;
+  clip-path: polygon(100% 0, 100% 22%, 45% 91%, 0 50%, 0 0);
+  background: url("./images/meeting.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.landing__container {
+  flex-direction: row;
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.landing__container__overlay {
+  background: rgba(105, 179, 30, 0.3);
+  overflow: hidden;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.landing__navbar {
+  margin-top: 2rem;
+  justify-content: space-between;
+  flex: 0.2;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.landing__navbar__menu__container {
+  flex: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.landing__page__navbar__logo {
+  flex: 0.2;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.landing__nabar__menu {
+  list-style: none;
+}
+.landing__nabar__menu li {
+  display: inline;
+}
+.landing__navbar__menu__list {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  color: white;
+}
+.landing__navbar__menu__list_2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  font-weight: bold;
+  color: blue;
+}
+.landing__navbar__menu2 {
+  background-color: rgb(219, 218, 218);
+  list-style: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.7rem;
+  color: gray;
+  padding-bottom: 0.7rem;
+}
+.landing__navbar__menu2 li {
+  display: inline;
+}
+.landing__navbar__button__container {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-right: 1rem;
+  border: none;
+  text-transform: uppercase;
+  margin-left: 1rem;
+  padding-left: 1rem;
+  background-color: rgb(47, 151, 47);
+}

@@ -8,7 +8,7 @@
 
 #landing {
   height: 100vh;
-  width: 100vw;
+  max-width: 100vw;
   /* clip-path: polygon(100% 0, 100% 22%, 45% 91%, 0 50%, 0 0); */
   background: url("./images/meeting-2.jpg");
   background-position: center;
@@ -181,7 +181,6 @@
   height: 80%;
   display: flex;
   flex-direction: column;
-  
 }
 #news__right__image {
   padding-bottom: 1rem;
@@ -192,8 +191,61 @@
   padding-bottom: 2rem;
 }
 
-.news__right__button__container{
-display: flex;
-justify-content: flex-end;
-gap:0.2rem
+.news__right__button__container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.2rem;
+}
+
+/* Activities Page */
+.activities {
+  background-color: #f2f4f5;
+  height: 100vh;
+  max-width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: auto;
+  margin-left: auto;
+}
+.act__title {
+  font-weight: bolder;
+  font-size: 1.25rem;
+  padding-top: 1rem;
+  flex: 0.05;
+}
+.act__heading {
+  font-size: 4rem;
+  font-weight: lighter;
+  max-width: 80%;
+  padding-bottom: 1rem;
+  flex: 0.1;
+}
+.act__cards {
+  flex: 0.5;
+  border: 1px solid red;
+}
+.act__down__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 0.2;
+}
+.act__info {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+.act__button {
+  font-weight: bold;
+  color: white;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-right: 1rem;
+  border: none;
+  width: fit-content;
+  text-transform: uppercase;
+  padding-left: 1rem;
+  background-color: var(--button-color);
 }

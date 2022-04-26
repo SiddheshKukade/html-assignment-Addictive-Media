@@ -249,3 +249,20 @@
   padding-left: 1rem;
   background-color: var(--button-color);
 }
+
+/* Star  */
+.star{}
+.star__container{}
+.star__left{}
+.start__left__title{}
+.star__left__heading{}
+
+.star__middle{}
+.star__middle__photo{}
+
+.star__right{}
+.star__right__info__container{}
+.star__right__text{}
+.star__rectangle{}
+.quotes{}
+.star__rectangle__button{}

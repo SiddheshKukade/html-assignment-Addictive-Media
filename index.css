@@ -5,9 +5,12 @@
   /* font-family: 'PT Sans', sans-serif;     */
   --button-color: #88a234;
   --blue: #1a58b0;
+  --dark-blue: #094287;
+  --text-color: #898989;
 }
 body {
   overflow-x: hidden;
+  color:var(--text-color)
 }
 #landing {
   height: 100vh;
@@ -48,7 +51,6 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-wrap: nowrap;
-
 }
 .landing__page__navbar__logo {
   flex: 0.2;
@@ -56,12 +58,12 @@ body {
   height: 2.5rem;
 }
 .landing__nabar__menu {
-    list-style: none;
-    flex: 0.8;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: nowrap;
+  list-style: none;
+  flex: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
 }
 .landing__nabar__menu li {
   display: inline;
@@ -235,8 +237,46 @@ body {
   flex: 0.1;
 }
 .act__cards {
+  display: flex;
   flex: 0.5;
-  border: 1px solid red;
+  flex-direction: row;
+  width: 100%;
+}
+.act__card {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.9rem;
+  position: relative;
+  color: white;
+}
+.act__image {
+  flex: 1;
+  height: 100%;
+  border-radius: 0.35rem;
+
+  width: 100%;
+}
+.act__bottom {
+  position: absolute;
+  z-index: 111;
+  bottom: 0%;
+  top: auto;
+  background-color: var(--dark-blue);
+  opacity: 0.9;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  height: 30%;
+}
+.act__bottom__title {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+.act__bottom_info {
+  padding-bottom: 0.5rem;
+  font-weight: lighter;
 }
 .act__down__container {
   display: flex;
@@ -505,8 +545,8 @@ body {
 }
 
 .footer__middle {
-  padding-top:1rem;
-  padding-bottom:1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   display: flex;
   max-width: 90vw;
   margin-right: auto;
@@ -514,8 +554,8 @@ body {
   flex: 0.1;
 }
 .footer__middle__title {
- padding-right: 1rem;
- padding-left: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 1.5rem;
 }
 .footer__middle__address {
 }
@@ -539,4 +579,5 @@ body {
   max-width: 90vw;
   margin-right: auto;
   margin-left: auto;
+  color: white;
 }

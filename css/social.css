@@ -1,0 +1,92 @@
+/* Social Section */
+.social {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 3rem;
+  padding-top: 3rem;
+  justify-content: center;
+}
+
+.social__info {
+  font-weight: bold;
+  padding-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.social__title {
+  font-size: 2.5rem;
+  font-weight: lighter;
+  max-width: 80%;
+  padding-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.social__photos {
+  display: flex;
+  height: 30vh;
+  gap: 0.5rem;
+  justify-content: space-around;
+}
+.social__photos__image {
+  height: 100%;
+  width: 33%;
+  border-radius: 0.3rem;
+}
+
+.social__mission {
+  margin-top: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.social__mission__container {
+  max-width: 70vw;
+  background: url("../images/mission-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  border-radius: 0.3rem;
+}
+.social__mission__container__left {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+.social__mission__container__left__title {
+  padding-right: 2rem;
+  font-weight: bold;
+  padding-top: 1rem;
+
+  padding-bottom: 1rem;
+}
+.social__mission__container__left__infotext {
+  font-weight: lighter;
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+}
+.social__mission__container__left__button {
+  font-weight: bold;
+  color: white;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-right: 1rem;
+  border: none;
+  width: fit-content;
+  text-transform: uppercase;
+  padding-left: 1rem;
+  background-color: var(--button-color);
+  border-radius: 1px;
+}   
+.social__mission__container__right {
+  bottom: 0;
+}
+.social__mission__container__right__photo {
+  bottom: 0;
+}

@@ -1,0 +1,82 @@
+/* Footer Designing  */
+.footer {
+  margin-top: 15rem;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 3rem;
+  padding-top: 3rem;
+  justify-content: flex-end;
+  background: url("../images/footer-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  background-size: cover;
+}
+.footer__top {
+  flex: 0.8;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.footer__container__element {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+}
+.footer__container__element__title {
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid white;
+  margin-bottom: 0.5rem;
+}
+.footer__container__element__items {
+  display: flex;
+  flex-direction: column;
+}
+.footer__container__elements__item {
+  font-weight: lighter;
+  padding-bottom: 0.5rem;
+}
+
+.footer__middle {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  max-width: 90vw;
+  margin-right: auto;
+  margin-left: auto;
+  flex: 0.1;
+}
+.footer__middle__title {
+  padding-right: 1rem;
+  padding-left: 1.5rem;
+}
+.footer__middle__address {
+}
+
+/* .footer__bottom {
+  display: flex;
+  flex: 0.1;
+}
+.footer__bottom__copyright {
+}
+.footer__bottom__social {
+}
+.footer__bottom__creator {
+  height: 2%;
+}
+.footer__bottom__creator__photo {
+  height: 1rem;
+  width: 1rem;
+} */
+.footer__hr {
+  max-width: 90vw;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+}

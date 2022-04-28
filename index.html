@@ -17,10 +17,17 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="./css/activities.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/landing.css" />
+    <link rel="stylesheet" href="./css/news.css" />
+    <link rel="stylesheet" href="./css/social.css" />
+    <link rel="stylesheet" href="./css/star.css" />
   </head>
 
   <body>
-    <section id="landing">
+
+    <section id="landing" >
       <!-- Landing Page #1 -->
       <div class="landing__container__overlay">
         <div class="landing__container">
@@ -71,7 +78,7 @@
         <!-- News and Events  -->
       </div>
     </section>
-    <section class="news">
+    <section class="news" id="news">
       <div class="news__left">
         <div class="news__left__title">/ News & Events /</div>
         <div class="news__left__heading">
@@ -101,12 +108,14 @@
         </div>
       </div>
     </section>
-    <section class="activities">
+    <section class="activities" id="activites">
       <div class="act__title">/ Activities @ Shiv Nadar School /</div>
       <div class="act__heading">Shiv Nadar at a Glance</div>
-      <div class="act__cards">
-         <div class="act__card">
-          <img src="./images/card-art.jpg" class="act__image"/>
+      <div class="act__cards gallery-container">
+            <div class="gallery">
+      <div class="gallery-container">
+        <div class="gallery-item gallery-item-1 act__card" data-index="1">
+          <img src="./images/card-art.jpg" style="height: 100%; width: 100%" />
           <div class="act__bottom">
             <div class="act__bottom__title">Art Society</div>
             <div class="act__bottom_info">
@@ -114,17 +123,24 @@
             </div>
           </div>
         </div>
-         <div class="act__card">
-          <img  src="./images/card-football.JPG" class="act__image"/>
+        <div class="gallery-item gallery-item-2 act__card" data-index="2">
+          <img
+            src="./images/card-football.JPG"
+            style="height: 100%; width: 100%"
+          />
           <div class="act__bottom">
             <div class="act__bottom__title">Football Club</div>
             <div class="act__bottom_info">
-              Sessions, competitions, intense training, we are the real champions.
+              Sessions, competitions, intense training, we are the real
+              champions.
             </div>
           </div>
         </div>
-        <div class="act__card">
-          <img src="./images/card-dance.JPG" class="act__image"/>
+        <div class="gallery-item gallery-item-3 act__card" data-index="3">
+          <img
+            src="./images/card-dance.JPG"
+            style="height: 100%; width: 100%"
+          />
           <div class="act__bottom">
             <div class="act__bottom__title">The Dance Club</div>
             <div class="act__bottom_info">
@@ -133,8 +149,11 @@
             </div>
           </div>
         </div>
-        <div class="act__card">
-          <img src="./images/card-debate.JPG" class="act__image"/>
+        <div class="gallery-item gallery-item-4 act__card" data-index="4">
+          <img
+            src="./images/card-debate.JPG"
+            style="height: 100%; width: 100%"
+          />
           <div class="act__bottom">
             <div class="act__bottom__title">Debating Society</div>
             <div class="act__bottom_info">
@@ -142,22 +161,33 @@
             </div>
           </div>
         </div>
-        <div class="act__card">
-          <img src="./images/card-cricket.jpg" class="act__image"/>
+        <div class="gallery-item gallery-item-5 act__card" data-index="5">
+          <img
+            src="./images/card-cricket.jpg"
+            style="height: 100%; width: 100%"
+          />
           <div class="act__bottom">
-            <div class="act__bottom__title">Cricket Acamdemy</div>
+            <div class="act__bottom__title">Cricket Academy</div>
             <div class="act__bottom_info">
               They might be little, but they're experts.
             </div>
           </div>
         </div>
       </div>
+      <div class="gallery-controls"></div>
+    </div>
+
+        
+       
+      
+      </div>
+      <div class="gallery-controls"></div>
       <div class="act__down__container">
         <div class="act__info">An eye for talent and search for passion</div>
         <button class="act__button">Learn More</button>
       </div>
     </section>
-    <section class="star">
+    <section class="star" id="start">
       <div class="star__container">
         <div class="star__top">
           <div class="star__left">
@@ -193,7 +223,7 @@
         <button class="star__rectangle__button">know more</button>
       </div>
     </section>
-    <section class="social">
+    <section class="social" id="social">
       <div class="social__info" id="social">/ Find us @ shivnadarschool /</div>
       <div class="social__title">We're social like our kids</div>
       <div class="social__photos">
@@ -352,5 +382,7 @@
         </div> -->
       </div>
     </section>
+
+    <script src="index.js"></script>
   </body>
 </html>
